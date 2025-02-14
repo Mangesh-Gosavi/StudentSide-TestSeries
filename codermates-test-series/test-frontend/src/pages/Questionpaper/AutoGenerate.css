@@ -1,0 +1,72 @@
+/* Custom styling for the card */
+.custom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: scale(1.05); /* Slightly stronger scale effect */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Stronger shadow for emphasis */
+}
+
+/* Style for the buttons */
+.custom-btn {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #004085; /* Darker shade for hover */
+  transform: translateY(-3px); /* Stronger hover effect */
+}
+
+/* Custom link style for the difficulty section */
+.custom-link-button {
+  transition: color 0.3s ease;
+}
+
+.custom-link-button:hover {
+  color: #004085; /* Darker color for hover effect */
+}
+
+/* Form controls */
+.custom-form-control {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-form-control:focus {
+  border-color: #004085; /* Consistent dark blue */
+  box-shadow: 0 0 8px rgba(0, 68, 133, 0.6); /* Slightly stronger focus shadow */
+}
+
+/* Modal header and body styling */
+.modal-header {
+  background-color: #e9ecef; /* Slightly darker background for modal header */
+}
+
+.modal-body {
+  padding: 20px;
+  background-color: #ffffff; /* Ensure a clean white background for the modal */
+}
+
+/* Add border to each question */
+.modal-body ul li {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px; /* Slightly larger border radius for a smoother look */
+  background-color: #f9f9f9;
+  list-style-type: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for questions */
+}
+
+/* Add hover effect on questions */
+.modal-body ul li:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+  transform: translateY(-2px); /* Added slight lift effect on hover */
+}
+
+/* Make sure to remove default list styling */
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}

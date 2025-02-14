@@ -1,0 +1,78 @@
+.test-papers-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.test-papers-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.test-paper-item {
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.exam-name {
+    font-size: 1.5rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.paper-details {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.paper-details p {
+    margin: 5px 0;
+}
+
+.questions-title {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.questions-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.question-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+}
+
+.options-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.loading,
+.error {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ff0000;
+    margin-top: 50px;
+}
+
+.loading {
+    color: #007BFF;
+}

@@ -1,0 +1,19 @@
+/* ReviewQuestions.css */
+
+/* Add a position relative to the list item to position the question details in the top-right corner */
+.list-group-item {
+  position: relative;
+}
+
+/* Style for the details box that will be positioned in the top-right */
+.question-details {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.9rem;
+  color: #555;
+  background-color: #f8f9fa;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

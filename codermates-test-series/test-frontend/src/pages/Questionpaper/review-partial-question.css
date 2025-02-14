@@ -1,0 +1,150 @@
+/* General Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Card Styling */
+  .card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+  }
+  
+  .card-header {
+    background-color: #6c757d;
+    color: white;
+    font-size: 1.25rem;
+    padding: 15px;
+    border-radius: 0.25rem 0.25rem 0 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Exam Details Styling */
+  strong {
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Marking Scheme */
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
+  /* Question List Styling */
+  .list-group-item {
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  
+  .question-details {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 0.25rem;
+    border: 1px solid #dee2e6;
+    font-size: 0.9rem;
+    display: none; /* Initially hidden */
+  }
+  
+  /* Question Details Header */
+  .question-details strong {
+    display: inline-block;
+    width: 160px;
+    font-weight: bold;
+  }
+  
+  /* Show question details when clicked */
+  .list-group-item:hover .question-details {
+    display: block;
+  }
+  
+  /* Question Option List */
+  .question-options ul {
+    padding-left: 20px;
+  }
+  
+  .question-options li {
+    margin-bottom: 8px;
+  }
+  
+  /* Message When No Exam Details Are Found */
+  .alert {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 0.25rem;
+    border: 1px solid #f5c6cb;
+  }
+  
+  /* Subject & Chapter Styling */
+  .mt-4 {
+    margin-top: 20px;
+  }
+  
+  .subject-questions ul {
+    padding-left: 20px;
+  }
+  
+  .subject-questions li {
+    font-size: 1rem;
+    color: #343a40;
+    margin-bottom: 8px;
+  }
+  
+  /* Optional: Enhance Card Padding */
+  .card-body {
+    padding: 30px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .card-header {
+      font-size: 1.1rem;
+    }
+  
+    .list-group-item {
+      padding: 12px;
+    }
+  
+    .question-details {
+      font-size: 0.85rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      padding: 5px;
+    }
+  
+    .card-body {
+      padding: 20px;
+    }
+  
+    .question-details {
+      font-size: 0.8rem;
+    }
+  }
+  
+  

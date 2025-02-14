@@ -1,0 +1,19 @@
+/* Hover effect on question box */
+.question-box:hover {
+    background-color: #f0f8ff;
+    cursor: pointer;
+  }
+  
+  /* Highlight the selected question */
+  .question-box.selected {
+    background-color: #c8e6c9;
+    border: 2px solid #388e3c;
+  }
+  
+  /* Make the checkbox invisible */
+  .question-box input[type="checkbox"] {
+    visibility: hidden;
+  }
+
+  
+  

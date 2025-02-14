@@ -1,0 +1,92 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.custom-cards {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.exam-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 2px solid #ddd;
+}
+
+.left-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.right-section {
+  flex: 1;
+  min-width: 200px;
+  text-align: right;
+}
+
+.subject-breakdown {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.subject-breakdown ul {
+  padding-left: 20px;
+}
+
+.exam-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007BFF;
+}
+
+.marking-scheme ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.questions-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.question-item {
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.options-list {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.no-exam-message {
+  text-align: center;
+  font-size: 1.5rem;
+  color: red;
+  margin-top: 20px;
+}
+.questions-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the questions */
+  width: 100%;
+}
+
+.question-item {
+  width: 80%; /* Adjust width for better readability */
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  text-align: left; /* Ensures text inside remains left-aligned */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
