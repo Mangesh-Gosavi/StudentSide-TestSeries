@@ -1,0 +1,134 @@
+/* General Styles */
+.container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.dashboard{
+    min-width: 837px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.card {
+    width: 48%;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.card-best {
+    background-color: #5EB252;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-icon {
+    height: 25px;
+    fill: grey;
+}
+
+h3 {
+    margin: 0;
+}
+
+/* Results Section */
+.results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.results-header {
+    border: 1px solid rgb(216, 216, 216);
+    margin-top: 10px;
+    width: 85%;
+    padding: 9px;
+}
+
+.results-table {
+    border: 1px solid rgb(216, 216, 216);
+    margin-top: 10px;
+    width: 85%;
+    padding: 9px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+thead {
+    background-color: #1a3874;
+    color: white;
+}
+
+tr {
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.icon {
+    height: 20px;
+    fill: grey;
+}
+
+.dashbtn {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 10px;
+    }
+
+    .results-container {
+        width: 100%;
+    }
+
+    .results-header,
+    .results-table {
+        width: 90%; /* Increase width of results table on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .cards-container {
+        gap: 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .results-header,
+    .results-table {
+        width: 100%; /* Take full width on even smaller screens */
+    }
+}

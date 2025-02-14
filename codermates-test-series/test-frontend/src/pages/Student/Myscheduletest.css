@@ -1,0 +1,100 @@
+.dashboard {
+    min-width: 1000px;
+}
+
+/* Container */
+.scheduled-tests-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(216, 216, 216);
+    width: 100%;
+    padding: 20px;
+}
+
+/* Header */
+.scheduled-tests-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a3874;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+/* YouTube links */
+.youtube-links img {
+    filter: invert(1) brightness(2);
+    height: 30px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+/* Navigation */
+.scheduled-tests-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a3874;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.scheduled-tests-nav p {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.scheduled-tests-nav p:hover {
+    background-color: #3b5998;
+}
+
+/* Ensure active tab has #5EB252 background */
+.scheduled-tests-nav .active {
+    background-color: #5eb252 !important;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/* Table */
+.scheduled-tests-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.scheduled-tests-table th,
+.scheduled-tests-table td {
+    padding: 15px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+/* No scheduled tests */
+.no-tests {
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+}
+
+/* Button */
+.dashbtn {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #1a3874;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dashbtn:hover {
+    background-color: #5eb252;
+}

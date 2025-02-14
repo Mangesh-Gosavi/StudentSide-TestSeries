@@ -1,0 +1,107 @@
+.dashboard{
+    min-width: 1000px;
+}
+
+/* General Layout */
+.test-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    gap: 10px;
+}
+
+.analysis-text {
+    display: flex;
+    gap: 10px;
+}
+
+.youtube-icon {
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Summary Section */
+.test-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.summary-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 15px 0;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+}
+
+.summary-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 5px;
+}
+
+.summary-img {
+    height: 60px;
+}
+
+.summary-value {
+    font-size: 40px;
+}
+
+.summary-label {
+    font-size: 14px;
+}
+
+/* Navigation Tabs */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a3874;
+    color: white;
+    width: 100%;
+}
+
+.schedulenav {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.schedulenav.active {
+    background-color: #5eb252;
+    font-weight: bold;
+}
+
+/* Table */
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.result-table th,
+.result-table td {
+    padding: 15px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.solution-btn {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #1a3874;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.solution-btn:hover {
+    background-color: #5eb252;
+}

@@ -1,0 +1,62 @@
+/* Container for bookmarked questions */
+.dashboard{
+    min-width: 1000px;
+}
+
+.bookmarks-container {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Header styling */
+.bookmarks-header {
+    background-color: #1a3874;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Table styling */
+.bookmarks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+/* Table header */
+.bookmarks-table th {
+    padding: 15px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+/* Table rows */
+.bookmarks-table td {
+    padding: 15px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+/* No questions available */
+.no-questions {
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+}
+
+/* Solution button */
+.solution-btn {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #1a3874;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.solution-btn:hover {
+    background-color: #142a5c;
+}
